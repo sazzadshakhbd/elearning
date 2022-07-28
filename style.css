@@ -10,3 +10,34 @@ body {
 .fw-medium {
     font-weight: 500;
 }
+
+
+
+/* Button */
+.btn-theme {
+    background-color: #289BDE;
+    border: 1px solid #289BDE;
+    color: #289BDE;
+}
+
+/* Carousel background overlay */
+#bannerCarousel .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+}
+
+#bannerCarousel .carousel-item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgba(29, 29, 29, 0.7);
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+}
+
+/* Carousel caption verticaly middle */
+
+.carousel-caption {
+    bottom: initial;
+}
