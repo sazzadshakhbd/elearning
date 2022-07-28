@@ -28,6 +28,10 @@ p {
   color: #289bde;
 }
 
+.bg-theme {
+  background-color: #289bde;
+}
+
 /* Button */
 .btn-theme {
   background-color: #289bde;
