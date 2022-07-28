@@ -1,4 +1,6 @@
-/* Google Fonts */
+/******************** 
+Global CSS 
+*********************/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 body {
@@ -35,19 +37,36 @@ p {
   background-color: #289bde;
 }
 
-/* Button */
 .btn-theme {
   background-color: #289bde;
   border: 1px solid #289bde;
   color: #289bde;
 }
 
-/* Carousel */
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+section {
+  margin-bottom: 130px;
+}
+
+/******************** 
+Navbar CSS
+*********************/
+
+nav {
+  margin: 35px 0;
+}
+
+/******************** 
+Banner
+*********************/
+
 #bannerCarousel .carousel-item img {
   object-fit: cover;
   object-position: center;
 }
-
 #bannerCarousel .carousel-item:before {
   content: "";
   display: block;
@@ -57,17 +76,23 @@ p {
   top: 0;
   height: 100vh;
 }
-
 .carousel-caption {
   bottom: initial;
 }
+
+/******************** 
+E-Learning
+*********************/
 
 .elearning-card {
   background: #f4fafd;
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
+/******************** 
+Feedback
+*********************/
+.feedback .carousel-control-next-icon,
+.feedback .carousel-control-prev-icon {
   width: 47px;
   height: 47px;
   background-size: 50% 50%;
@@ -75,10 +100,25 @@ p {
   border-radius: 100%;
 }
 
-.carousel-control-next-icon {
+.feedback .carousel-control-next-icon {
   margin-right: -22px;
 }
 
-.carousel-control-prev-icon {
+.feedback .carousel-control-prev-icon {
   margin-left: -22px;
+}
+
+/******************** 
+Footer
+*********************/
+
+footer {
+  background: #161616;
+  padding: 120px 0;
+}
+.social-share-icon a {
+  width: 40px;
+  height: 40px;
+  background: #242424;
+  line-height: 40px;
 }
