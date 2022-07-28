@@ -67,6 +67,7 @@ Banner
   object-fit: cover;
   object-position: center;
 }
+
 #bannerCarousel .carousel-item:before {
   content: "";
   display: block;
@@ -76,6 +77,7 @@ Banner
   top: 0;
   height: 100vh;
 }
+
 .carousel-caption {
   bottom: initial;
 }
@@ -91,6 +93,11 @@ E-Learning
 /******************** 
 Feedback
 *********************/
+.feedback .carousel-control-next,
+.feedback .carousel-control-prev {
+  width: 2%;
+}
+
 .feedback .carousel-control-next-icon,
 .feedback .carousel-control-prev-icon {
   width: 47px;
@@ -116,6 +123,7 @@ footer {
   background: #161616;
   padding: 120px 0;
 }
+
 .social-share-icon a {
   width: 40px;
   height: 40px;
@@ -127,17 +135,21 @@ footer {
   section {
     margin-bottom: 60px;
   }
+
   footer {
     padding: 60px 0;
   }
+
   .e-learning h1 {
     font-size: 30px;
     line-height: 45px;
   }
+
   .e-learning ul li span {
     font-size: 25px;
     line-height: 38px;
   }
+
   .e-learning ul li p {
     font-size: 16px !important;
   }
@@ -147,9 +159,16 @@ footer {
   nav {
     margin-bottom: 10px;
   }
+
+  #bannerCarousel .carousel-item h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
   .meet h1 {
     font-size: 24px;
   }
+
   .meet p {
     font-size: 16px;
   }
