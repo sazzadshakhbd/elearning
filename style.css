@@ -4,7 +4,6 @@
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-
   font-size: 1rem;
 }
 
@@ -22,6 +21,10 @@ p {
 
 .text-dark-2 {
   color: #4a4a4a;
+}
+
+.text-dark-5 {
+  color: #d2d2d2;
 }
 
 .text-theme {
@@ -61,4 +64,21 @@ p {
 
 .elearning-card {
   background: #f4fafd;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 47px;
+  height: 47px;
+  background-size: 50% 50%;
+  background-color: #289bde;
+  border-radius: 100%;
+}
+
+.carousel-control-next-icon {
+  margin-right: -22px;
+}
+
+.carousel-control-prev-icon {
+  margin-left: -22px;
 }
